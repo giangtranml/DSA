@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "problems/leetcode_contest334.cpp"
+#include "problems/leetcode_contest332.cpp"
 int main(int num_arg, char* args[]) {
-    solvep3();
+    solvep();
     return 0;
 }
