@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.23)
-project(Algorithms)
+project(DSA)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Algorithms main.cpp)
+add_executable(DSA main.cpp)
 
-target_include_directories(Algorithms PUBLIC problems/ data_structures/)
+target_include_directories(DSA PUBLIC problems/ data_structures/)
